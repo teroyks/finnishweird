@@ -1,3 +1,6 @@
 markdown: kramdown
 pygments: true
 permalink: /:title
+
+kramdown:
+  hard_wrap: false

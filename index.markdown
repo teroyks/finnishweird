@@ -8,7 +8,9 @@ title: Testi
 <div id="left" markdown="1">
 Tähän lyhyt yleinen esittely siitä, mikä Finnish Weird -julkaisu on.
 
-Vähän lisää esittelyä
+Vähän lisää esittelyä.
+Rivinvaihdolla ei pitäisi olla väliä.
+"lainausmerkit" -- ja ajatusviivat pitäisi olla smart.
 </div>
 
 <div id="right" markdown="1">
