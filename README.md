@@ -1,0 +1,4 @@
+finnishweird
+============
+
+Finnish Weird Publication
