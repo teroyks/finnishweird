@@ -953,7 +953,7 @@ font-family: 'Open Sans', 'sans-serif';
 	#header-wrapper
 	{
 		position: relative;
-		background: #f08c89;
+		background: #000;
 		background-image: url('../images/promo2.jpg');
 		background-size:cover;
 
