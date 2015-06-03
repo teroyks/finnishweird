@@ -13,6 +13,13 @@
 		font-size: 12pt;
 		letter-spacing: 0;
 	}
+			.image img
+			{
+			display:inline;
+			width:100%;
+            text-align:center;
+            			
+            			}
 
 	header
 	{
@@ -32,12 +39,10 @@
 
 	.feature
 	{
-		text-align: left;
 	}
 
 	header.major
 	{
-		text-align: left;
 	}
 
 	.actions.major
@@ -209,7 +214,6 @@
 	
 		.homepage #header-wrapper
 		{
-			padding: 3em 20px 3em 20px;
 		}
 	
 	#promo-wrapper

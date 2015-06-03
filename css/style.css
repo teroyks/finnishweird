@@ -223,7 +223,10 @@ font-family: 'Open Sans', 'sans-serif';
 		{
 			padding-top: 1em;
 		}
-		
+		ul.actionsheader
+		{
+			padding-top: 1em;
+		}		
 			ul.actions.major
 			{
 				text-align: center;
@@ -234,7 +237,12 @@ font-family: 'Open Sans', 'sans-serif';
 				display: inline-block;
 				margin-left: 1em;
 			}
-			
+				ul.actionsheader li
+			{
+				display: inline-block;
+				margin-left: 1em;
+				margin-bottom:1em;
+			}		
 				ul.actions li:first-child
 				{
 					margin-left: 0;
@@ -282,7 +290,6 @@ font-family: 'Open Sans', 'sans-serif';
 			ul.menu li
 			{
 				display: inline-block;
-				border-left: solid 1px #d2d7dc;
 				padding-left: 1em;
 				margin-left: 1em;
 			}
@@ -921,6 +928,7 @@ font-family: 'Open Sans', 'sans-serif';
 		position: relative;
 		background: #000;
 		overflow-x: hidden;
+		clear:both;
 	}
 
 	.image-wrapper
@@ -954,7 +962,7 @@ font-family: 'Open Sans', 'sans-serif';
 	{
 		position: relative;
 		background: #000;
-		background-image: url('../images/promo2.jpg');
+		/*background-image: url('../images/promo2.jpg'); */
 		background-size:cover;
 
 	}
@@ -967,7 +975,7 @@ font-family: 'Open Sans', 'sans-serif';
 			left: 0;
 			top: 0;
 			width: 100%;
-			background: url('images/overlay.png');
+		/*	background: url('images/overlay.png');*/
 			background-size: 128px 128px;
 		}
 	
@@ -979,7 +987,14 @@ font-family: 'Open Sans', 'sans-serif';
 		color: #fff;
 		text-align: center;
 	}
-
+	#promo-wrapper2
+	{
+		position: relative;
+		background: url('../images/finnish_weird_3.jpg') center center;
+		background-size: cover;
+		color: #fff;
+		text-align: center;
+	}
 	#footer-wrapper
 	{
 		position: relative;
@@ -1030,13 +1045,28 @@ font-family: 'Open Sans', 'sans-serif';
 /*********************************************************************************/
 /* Hero                                                                          */
 /*********************************************************************************/
+	.hero2
+	{
 
+		background-image: url('../images/FW2.jpg') !important;
+		background-size:cover;
+
+	}
 	#hero
 	{
 		position: relative;
 		color: #fff;
 		text-align: center;
 		z-index: 1;
+		background-image: url('../images/fw1_kansi.jpg');
+		margin: auto;
+		background-size:cover;
+    	-webkit-box-sizing: border-box;
+    	-moz-box-sizing: border-box;
+    	box-sizing: border-box;
+    	float:left;
+    	width:50%;
+    	padding-bottom:10em;
 	}
 	
 		#hero h2
@@ -1053,8 +1083,7 @@ font-family: 'trade_windsregular';
 
 		#hero .button
 		{
-			background: #ec7032;
-			opacity:0.65;
+background-color: rgba(236,112,50,0.5);
 			border-color: rgba(255,255,255,0);
 			color: #fff;
 		}
@@ -1062,7 +1091,7 @@ font-family: 'trade_windsregular';
 			#hero .button:hover
 			{
 				border-color: rgba(255,255,255,0.75);
-				background-color: rgba(255,255,255,0.15);
+				background-color: rgba(236,112,50,1);
 				color: #fff;
 			}
 
@@ -1087,7 +1116,15 @@ font-family: 'trade_windsregular';
 		border: solid 1px rgba(255,255,255,0.25);
 		border-radius: 0.5em;
 	}
-
+	#headerpromo
+	{
+		background: rgba(0, 0, 0, 0.22) none repeat scroll 0 0;
+		border: solid 1px rgba(255,255,255,0.25);
+		border-radius: 0.5em;
+		width: 80%;
+		display: inline-block;
+		margin:2%;
+	}
 		#promo h2
 		{
 			color: #fff;

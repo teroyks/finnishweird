@@ -11,7 +11,13 @@
 	#footer
 	{
 	}
-
+			.image img
+			{
+			display:inline;
+			width:auto;
+            text-align:center;
+            			
+            			}
 		#footer ul.divided
 		{
 			margin: 0;
