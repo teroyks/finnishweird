@@ -35,8 +35,8 @@
 
 		.homepage #header-wrapper
 		{
-		  height: 30em;
-            padding: 4em 0 4em;
+		  min-height: 30em;
+            padding: 0;
 		}
 
 		
@@ -44,7 +44,10 @@
 	{
 		padding: 5em 0 5em 0;
 	}
-	
+		#promo-wrapper2
+	{
+		padding: 5em 0 5em 0;
+	}
 	#footer-wrapper
 	{
 		padding: 1em 0 1em 0;

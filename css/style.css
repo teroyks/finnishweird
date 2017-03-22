@@ -996,6 +996,14 @@ font-family: 'Open Sans', 'sans-serif';
 		color: #fff;
 		text-align: center;
 	}	
+	#promo-wrapper2.front
+	{
+		position: relative;
+		background: url('../images/fw4_crop.jpg') center center;
+		background-size: cover;
+		color: #fff;
+		text-align: center;
+	}	
 	#promo-wrapper
 	{
 		position: relative;
@@ -1004,6 +1012,7 @@ font-family: 'Open Sans', 'sans-serif';
 		color: #fff;
 		text-align: center;
 	}
+
 	#promo-wrapper2
 	{
 		position: relative;
@@ -1075,7 +1084,55 @@ font-family: 'Open Sans', 'sans-serif';
 		color: #fff;
 		text-align: center;
 		z-index: 1;
+		background-image: url('../images/fw4_kansikuva.jpg');
+		margin: auto;
+		background-size:cover;
+    	-webkit-box-sizing: border-box;
+    	-moz-box-sizing: border-box;
+    	box-sizing: border-box;
+    	float:left;
+    	width:100%;
+    	padding-bottom:10em;
+	}
+		#hero-3.single
+	{
+		position: relative;
+		color: #fff;
+		text-align: center;
+		z-index: 1;
 		background-image: url('../images/fw3_kansikuva.jpg');
+		margin: auto;
+		background-size:cover;
+    	-webkit-box-sizing: border-box;
+    	-moz-box-sizing: border-box;
+    	box-sizing: border-box;
+    	float:left;
+    	width:100%;
+    	padding-bottom:10em;
+	}
+		#hero-1.single
+	{
+		position: relative;
+		color: #fff;
+		text-align: center;
+		z-index: 1;
+		background-image: url('../images/finnish_weird_2.jpg');
+		margin: auto;
+		background-size:cover;
+    	-webkit-box-sizing: border-box;
+    	-moz-box-sizing: border-box;
+    	box-sizing: border-box;
+    	float:left;
+    	width:100%;
+    	padding-bottom:10em;
+	}
+		#hero-2.single
+	{
+		position: relative;
+		color: #fff;
+		text-align: center;
+		z-index: 1;
+		background-image: url('../images/fw2_kansikuva.jpg');
 		margin: auto;
 		background-size:cover;
     	-webkit-box-sizing: border-box;
@@ -1106,7 +1163,7 @@ font-family: 'Open Sans', 'sans-serif';
 
 	text-decoration: none !important;border-bottom: none !important;
 }
-	#hero
+	#hero,#hero-1
 	{
 		position: relative;
 		color: #fff;
@@ -1123,39 +1180,39 @@ font-family: 'Open Sans', 'sans-serif';
     	padding-bottom:10em;
 	}
 	
-		#hero h2
+		#hero h2,#hero-1 h2
 		{
 font-family: 'trade_windsregular';
 
 			color: #fff;
 		}
 
-		#hero header > span
+		#hero header > span,#hero-1 header > span
 		{
 			color: #fff;
 		}
 
-		#hero .button
+		#hero .button,#hero-1 .button,#hero-2 .button
 		{
 background-color: rgba(236,112,50,0.5);
 			border-color: rgba(255,255,255,0);
 			color: #fff;
 		}
 
-			#hero .button:hover
+			#hero .button:hover,#hero-1 .button:hover,#hero-2 .button:hover
 			{
 				border-color: rgba(255,255,255,0.75);
 				background-color: rgba(236,112,50,1);
 				color: #fff;
 			}
 
-		#hero a
+		#hero a,#hero-1 a,#hero-2 a
 		{
 			color: #fff;
 			border-color: rgba(255,255,255,0.5);
 		}
 		
-			#hero a:hover
+			#hero a:hover,#hero-1 a:hover,#hero-2 a:hover
 			{
 				border-color: rgba(255,255,255,0);
 			}
